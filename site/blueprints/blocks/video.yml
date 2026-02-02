@@ -20,7 +20,7 @@ fields:
     label: Description
     type: writer
 
-  video:
+  url:
     label: Video (YouTube ou Vimeo)
     type: url
     help: Collez l'URL YouTube ou Vimeo
