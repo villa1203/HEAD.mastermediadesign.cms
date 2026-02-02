@@ -1,5 +1,8 @@
 name: Liste de liens
 icon: list-bullet
+preview: fields
+wysiwyg: true
+
 
 fields:
   theme:
@@ -34,6 +37,8 @@ fields:
       titre:
         label: Titre
         type: text
+      lien:
+        type: url
       description:
         label: Description
         type: writer
