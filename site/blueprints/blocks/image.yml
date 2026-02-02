@@ -1,0 +1,37 @@
+name: Image
+icon: image
+
+fields:
+  theme:
+    label: Thème
+    type: select
+    options:
+      lumineux: Lumineux
+      sombre: Sombre
+      colore1: Coloré variante 1
+      colore2: Coloré variante 2
+    default: lumineux
+
+  titre:
+    label: Titre
+    type: text
+
+  description:
+    label: Description
+    type: writer
+
+  image:
+    label: Image
+    type: files
+    uploads: true
+    max: 1
+    accept:
+      - image/*
+
+  ctaurl:
+    label: URL du CTA
+    type: url
+
+  ctatitre:
+    label: Titre du bouton
+    type: text

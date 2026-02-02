@@ -1,0 +1,34 @@
+name: Video
+icon: video
+
+fields:
+  theme:
+    label: Thème
+    type: select
+    options:
+      lumineux: Lumineux
+      sombre: Sombre
+      colore1: Coloré variante 1
+      colore2: Coloré variante 2
+    default: lumineux
+
+  titre:
+    label: Titre
+    type: text
+
+  description:
+    label: Description
+    type: writer
+
+  video:
+    label: Video (YouTube ou Vimeo)
+    type: url
+    help: Collez l'URL YouTube ou Vimeo
+
+  ctaurl:
+    label: URL du CTA
+    type: url
+
+  ctatitre:
+    label: Titre du bouton
+    type: text
