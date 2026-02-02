@@ -1,0 +1,35 @@
+.k-block-videoautoplay {
+  padding: 0.5rem;
+}
+
+.k-block-videoautoplay-preview {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #000;
+  margin: 0 auto;
+}
+
+.k-block-videoautoplay-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.k-block-videoautoplay-empty {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--color-gray-200);
+  border-radius: 4px;
+  color: var(--color-gray-600);
+}
+
+.k-block-videoautoplay-title {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
