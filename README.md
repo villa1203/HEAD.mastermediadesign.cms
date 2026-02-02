@@ -34,3 +34,109 @@ If you are familiar with Git, you can clone Kirby's Plainkit repository from Git
 
 © 2009 Bastian Allgeier
 [getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
+
+
+bloque "video autoplay"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre 
+- field writer: text de description
+- field fichier: fichier mp4
+- field writer: texte de video description, pas de nodes, et pas de marks
+- information CTA:
+  - un champs text qui vérifie si c'est bien formaté comme un URL
+  - un champs text pour le titre du bouton
+
+bloque "liste de liens"
+- theme:
+  - lumineux
+  - sombre
+  - coloré variante 1
+  - coloré variante 2
+- field text: titre
+- field writer: text de description
+- field structure:
+  - field file: image cover (max 1 fiels)
+  - field text: titre
+  - field writer: description
+  - field tag
+- information CTA:
+    - un champs text qui vérifie si c'est bien formaté comme un URL
+    - un champs text pour le titre du bouton
+    
+bloque "CTA"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- titre
+- field writer: text de description
+- information CTA:
+    - un champs text qui vérifie si c'est bien formaté comme un URL
+    - un champs text pour le titre du bouton
+
+bloque "video"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre
+- field writer: text de description
+- field video: youtube ou vimeo
+- information CTA:
+    - un champs text qui vérifie si c'est bien formaté comme un URL
+    - un champs text pour le titre du bouton
+
+bloque "image"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre
+- field writer: text de description
+- field file: image, max 1
+- information CTA:
+    - un champs text qui vérifie si c'est bien formaté comme un URL
+    - un champs text pour le titre du bouton
+    
+bloque "iFrame"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre
+- field writer: text de description
+- field text: un champs text qui vérifie si c'est bien formaté comme un URL
+
+bloque "contenu"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre
+- field writer: text de description
+- information CTA:
+    - un champs text qui vérifie si c'est bien formaté comme un URL
+    - un champs text pour le titre du bouton
+
+bloque "toggle"
+- theme:
+    - lumineux
+    - sombre
+    - coloré variante 1
+    - coloré variante 2
+- field text: titre
+- field writer: text de description
+- field structure:
+    - field text: titre
+    - field writer: description
+    - field writer: content
+  
