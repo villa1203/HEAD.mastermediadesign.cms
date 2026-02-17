@@ -3,3 +3,14 @@ title: Site
 sections:
   pages:
     type: pages
+    template:
+      - default
+
+  tags:
+    type: pages
+    headline: " "
+    template:
+      - tags
+    layout: cards
+    size: tiny
+    status: listed
