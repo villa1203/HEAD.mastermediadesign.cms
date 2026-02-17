@@ -1,16 +1,23 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
-    template:
-      - default
 
-  tags:
-    type: pages
-    headline: " "
-    template:
-      - tags
-    layout: cards
-    size: tiny
-    status: listed
+columns:
+  - width: 1/4
+    sections:
+      tags:
+        type: pages
+        headline: " "
+        template:
+          - tags
+        layout: cards
+        size: tiny
+        status: listed
+
+  - width: 3/4
+    sections:
+      pages:
+        type: pages
+        layout: cards
+        size: large
+        template:
+          - default

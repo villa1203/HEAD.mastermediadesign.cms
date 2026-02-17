@@ -1,5 +1,7 @@
 name: Toggle
 icon: toggle-on
+preview: fields
+wysiwyg: true
 
 fields:
   theme:

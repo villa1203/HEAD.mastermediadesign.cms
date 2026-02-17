@@ -1,5 +1,7 @@
 name: CTA
 icon: bolt
+preview: fields
+wysiwyg: true
 
 fields:
   theme:

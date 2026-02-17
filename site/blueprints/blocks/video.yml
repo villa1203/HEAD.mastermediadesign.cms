@@ -1,5 +1,7 @@
 name: Video
 icon: video
+preview: fields
+wysiwyg: true
 
 fields:
   theme:

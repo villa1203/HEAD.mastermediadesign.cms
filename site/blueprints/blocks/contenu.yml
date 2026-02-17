@@ -1,5 +1,7 @@
 name: Contenu
 icon: text
+preview: fields
+wysiwyg: true
 
 fields:
   theme:
