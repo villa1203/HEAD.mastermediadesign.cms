@@ -15,6 +15,12 @@ fields:
       colore2: Coloré variante 2
     default: lumineux
 
+  oneColl:
+    label: Sur une colonne
+    type: toggle
+    help: Mettre ce block sur une seule colonne pour les écrans larges
+    default: false
+
   titre:
     label: Titre
     type: text
