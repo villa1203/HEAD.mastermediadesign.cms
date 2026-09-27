@@ -44,7 +44,10 @@ fields:
         type: writer
       tags:
         label: Tags
-        type: tags
+        type: pages
+        query: site.find('tags').children
+        multiple: true
+        layout: list
 
   ctaurl:
     label: URL du CTA
