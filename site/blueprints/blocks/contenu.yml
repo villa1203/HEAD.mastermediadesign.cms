@@ -14,6 +14,13 @@ fields:
       colore2: Coloré variante 2
     default: lumineux
 
+  with_padding:
+    label: Avec padding
+    type: toggle
+    help: Ajouter un padding sur les coté droite et gauche du block, pour qu'il y est de l'espace avec le bord de la fenêtre
+    default: false
+
+
   oneColl:
     label: Sur une colonne
     type: toggle
