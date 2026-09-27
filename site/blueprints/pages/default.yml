@@ -20,7 +20,7 @@ columns:
 
   - width: 2/3
     fields:
-      contenu:
+      content:
         label: Contenu
         type: blocks
         fieldsets:
