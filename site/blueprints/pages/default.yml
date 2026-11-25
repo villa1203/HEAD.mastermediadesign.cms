@@ -15,6 +15,41 @@ columns:
         type: pages
         headline: Sous-pages
         template: default
+  - width: 1/2
+    sections:
+      meta_infos:
+        type: fields
+        fields:
+          cover_type:
+            label: Couverture
+            type: toggles
+            options:
+              none: Aucune
+              image: Image
+              video: Vidéo
+            default: none
+
+          cover_image:
+            label: Image de couverture
+            type: files
+            uploads: true
+            max: 1
+            multiple: false
+            layout: cardlets
+            accept:
+              - image/*
+            when:
+              cover_type: image
+
+          cover_video:
+            label: Vidéo de couverture
+            type: blocks
+            max: 1
+            fieldsets:
+              - videoautoplay
+            when:
+              cover_type: video
+
       meta_tags:
         type: fields
         fields:
