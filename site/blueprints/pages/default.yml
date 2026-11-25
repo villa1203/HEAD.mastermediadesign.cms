@@ -1,5 +1,12 @@
 title: Page par default
 
+status:
+  draft:
+    label: Brouillon
+    text: Accessible seulement depuis le panel
+  listed:
+    label: En ligne
+    text: Publié sur le site
 
 columns:
   - width: 1/3
